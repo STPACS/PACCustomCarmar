@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B6D78C76F4C88D078F0098 /* libPods-自定义相机拍摄.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3892B476621173C5E5D11E /* libPods-自定义相机拍摄.a */; };
+		687E102C207309E2009891C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 687E102B207309E2009891C5 /* AppDelegate.m */; };
+		687E102F207309E2009891C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687E102E207309E2009891C5 /* ViewController.m */; };
+		687E1032207309E2009891C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687E1030207309E2009891C5 /* Main.storyboard */; };
+		687E1034207309E3009891C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687E1033207309E3009891C5 /* Assets.xcassets */; };
+		687E1037207309E3009891C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687E1035207309E3009891C5 /* LaunchScreen.storyboard */; };
+		687E103A207309E3009891C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 687E1039207309E3009891C5 /* main.m */; };
+		687E104220730A4B009891C5 /* CLCutsomCarmerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687E104120730A4B009891C5 /* CLCutsomCarmerViewController.m */; };
+		687E104520730AEF009891C5 /* VideoPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 687E104320730AEE009891C5 /* VideoPlay.m */; };
+		687E104820730B09009891C5 /* LongProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 687E104620730B08009891C5 /* LongProgress.m */; };
+		687E104B20730C92009891C5 /* FBGlowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 687E104A20730C92009891C5 /* FBGlowLabel.m */; };
+		687E104E20730D6F009891C5 /* ICFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 687E104D20730D6F009891C5 /* ICFileTool.m */; };
+		687E105920730E4D009891C5 /* EditImageCameraIconEdit.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E105020730E4D009891C5 /* EditImageCameraIconEdit.png */; };
+		687E105A20730E4D009891C5 /* sight_preview_done.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E105120730E4D009891C5 /* sight_preview_done.png */; };
+		687E105B20730E4D009891C5 /* MyGameDefaultAppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E105220730E4D009891C5 /* MyGameDefaultAppIcon@2x.png */; };
+		687E105C20730E4D009891C5 /* HVideo_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E105320730E4D009891C5 /* HVideo_back@3x.png */; };
+		687E105D20730E4D009891C5 /* cameraNavBarIconSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E105420730E4D009891C5 /* cameraNavBarIconSwitch.png */; };
+		687E105E20730E4D009891C5 /* sight_preview_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E105520730E4D009891C5 /* sight_preview_cancel.png */; };
+		687E105F20730E4D009891C5 /* HVideo_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E105620730E4D009891C5 /* HVideo_back@2x.png */; };
+		687E106020730E4D009891C5 /* Fav_List_Video_Play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E105720730E4D009891C5 /* Fav_List_Video_Play@3x.png */; };
+		687E106120730E4D009891C5 /* sc_btn_take.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E105820730E4D009891C5 /* sc_btn_take.png */; };
+		687E1063207325DC009891C5 /* 开始.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E1062207325DC009891C5 /* 开始.png */; };
+		687E1065207325E0009891C5 /* 结束.png in Resources */ = {isa = PBXBuildFile; fileRef = 687E1064207325E0009891C5 /* 结束.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		687E1027207309E2009891C5 /* 自定义相机拍摄.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义相机拍摄.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		687E102A207309E2009891C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		687E102B207309E2009891C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		687E102D207309E2009891C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		687E102E207309E2009891C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		687E1031207309E2009891C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		687E1033207309E3009891C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687E1036207309E3009891C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		687E1038207309E3009891C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687E1039207309E3009891C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		687E104020730A4B009891C5 /* CLCutsomCarmerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLCutsomCarmerViewController.h; sourceTree = "<group>"; };
+		687E104120730A4B009891C5 /* CLCutsomCarmerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLCutsomCarmerViewController.m; sourceTree = "<group>"; };
+		687E104320730AEE009891C5 /* VideoPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlay.m; sourceTree = "<group>"; };
+		687E104420730AEF009891C5 /* VideoPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlay.h; sourceTree = "<group>"; };
+		687E104620730B08009891C5 /* LongProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongProgress.m; sourceTree = "<group>"; };
+		687E104720730B09009891C5 /* LongProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongProgress.h; sourceTree = "<group>"; };
+		687E104920730C92009891C5 /* FBGlowLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGlowLabel.h; sourceTree = "<group>"; };
+		687E104A20730C92009891C5 /* FBGlowLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGlowLabel.m; sourceTree = "<group>"; };
+		687E104C20730D6F009891C5 /* ICFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICFileTool.h; sourceTree = "<group>"; };
+		687E104D20730D6F009891C5 /* ICFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICFileTool.m; sourceTree = "<group>"; };
+		687E105020730E4D009891C5 /* EditImageCameraIconEdit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EditImageCameraIconEdit.png; sourceTree = "<group>"; };
+		687E105120730E4D009891C5 /* sight_preview_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sight_preview_done.png; sourceTree = "<group>"; };
+		687E105220730E4D009891C5 /* MyGameDefaultAppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MyGameDefaultAppIcon@2x.png"; sourceTree = "<group>"; };
+		687E105320730E4D009891C5 /* HVideo_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HVideo_back@3x.png"; sourceTree = "<group>"; };
+		687E105420730E4D009891C5 /* cameraNavBarIconSwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraNavBarIconSwitch.png; sourceTree = "<group>"; };
+		687E105520730E4D009891C5 /* sight_preview_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sight_preview_cancel.png; sourceTree = "<group>"; };
+		687E105620730E4D009891C5 /* HVideo_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HVideo_back@2x.png"; sourceTree = "<group>"; };
+		687E105720730E4D009891C5 /* Fav_List_Video_Play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fav_List_Video_Play@3x.png"; sourceTree = "<group>"; };
+		687E105820730E4D009891C5 /* sc_btn_take.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc_btn_take.png; sourceTree = "<group>"; };
+		687E1062207325DC009891C5 /* 开始.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始.png"; sourceTree = "<group>"; };
+		687E1064207325E0009891C5 /* 结束.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "结束.png"; sourceTree = "<group>"; };
+		BEB6F88F2C8CD76079EF317B /* Pods-自定义相机拍摄.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义相机拍摄.release.xcconfig"; path = "Pods/Target Support Files/Pods-自定义相机拍摄/Pods-自定义相机拍摄.release.xcconfig"; sourceTree = "<group>"; };
+		D0EEBC2CE87AC42041D1C2D4 /* Pods-自定义相机拍摄.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义相机拍摄.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自定义相机拍摄/Pods-自定义相机拍摄.debug.xcconfig"; sourceTree = "<group>"; };
+		EC3892B476621173C5E5D11E /* libPods-自定义相机拍摄.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自定义相机拍摄.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687E1024207309E2009891C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B6D78C76F4C88D078F0098 /* libPods-自定义相机拍摄.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		687E101E207309E2009891C5 = {
+			isa = PBXGroup;
+			children = (
+				687E1029207309E2009891C5 /* 自定义相机拍摄 */,
+				687E1028207309E2009891C5 /* Products */,
+				DAFDD671BE56CF38B0A09D10 /* Pods */,
+				CF95BD98168B083C76394583 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		687E1028207309E2009891C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687E1027207309E2009891C5 /* 自定义相机拍摄.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687E1029207309E2009891C5 /* 自定义相机拍摄 */ = {
+			isa = PBXGroup;
+			children = (
+				687E102A207309E2009891C5 /* AppDelegate.h */,
+				687E102B207309E2009891C5 /* AppDelegate.m */,
+				687E104920730C92009891C5 /* FBGlowLabel.h */,
+				687E104A20730C92009891C5 /* FBGlowLabel.m */,
+				687E102D207309E2009891C5 /* ViewController.h */,
+				687E102E207309E2009891C5 /* ViewController.m */,
+				687E104020730A4B009891C5 /* CLCutsomCarmerViewController.h */,
+				687E104120730A4B009891C5 /* CLCutsomCarmerViewController.m */,
+				687E104420730AEF009891C5 /* VideoPlay.h */,
+				687E104320730AEE009891C5 /* VideoPlay.m */,
+				687E104720730B09009891C5 /* LongProgress.h */,
+				687E104620730B08009891C5 /* LongProgress.m */,
+				687E104C20730D6F009891C5 /* ICFileTool.h */,
+				687E104D20730D6F009891C5 /* ICFileTool.m */,
+				687E104F20730E4D009891C5 /* 视频报告 */,
+				687E1030207309E2009891C5 /* Main.storyboard */,
+				687E1033207309E3009891C5 /* Assets.xcassets */,
+				687E1035207309E3009891C5 /* LaunchScreen.storyboard */,
+				687E1038207309E3009891C5 /* Info.plist */,
+				687E1039207309E3009891C5 /* main.m */,
+			);
+			path = "自定义相机拍摄";
+			sourceTree = "<group>";
+		};
+		687E104F20730E4D009891C5 /* 视频报告 */ = {
+			isa = PBXGroup;
+			children = (
+				687E1064207325E0009891C5 /* 结束.png */,
+				687E1062207325DC009891C5 /* 开始.png */,
+				687E105020730E4D009891C5 /* EditImageCameraIconEdit.png */,
+				687E105120730E4D009891C5 /* sight_preview_done.png */,
+				687E105220730E4D009891C5 /* MyGameDefaultAppIcon@2x.png */,
+				687E105320730E4D009891C5 /* HVideo_back@3x.png */,
+				687E105420730E4D009891C5 /* cameraNavBarIconSwitch.png */,
+				687E105520730E4D009891C5 /* sight_preview_cancel.png */,
+				687E105620730E4D009891C5 /* HVideo_back@2x.png */,
+				687E105720730E4D009891C5 /* Fav_List_Video_Play@3x.png */,
+				687E105820730E4D009891C5 /* sc_btn_take.png */,
+			);
+			path = "视频报告";
+			sourceTree = "<group>";
+		};
+		CF95BD98168B083C76394583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC3892B476621173C5E5D11E /* libPods-自定义相机拍摄.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAFDD671BE56CF38B0A09D10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0EEBC2CE87AC42041D1C2D4 /* Pods-自定义相机拍摄.debug.xcconfig */,
+				BEB6F88F2C8CD76079EF317B /* Pods-自定义相机拍摄.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687E1026207309E2009891C5 /* 自定义相机拍摄 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687E103D207309E3009891C5 /* Build configuration list for PBXNativeTarget "自定义相机拍摄" */;
+			buildPhases = (
+				2835ED89B343E622B7696BE3 /* [CP] Check Pods Manifest.lock */,
+				687E1023207309E2009891C5 /* Sources */,
+				687E1024207309E2009891C5 /* Frameworks */,
+				687E1025207309E2009891C5 /* Resources */,
+				E08DB74035306A1020AA56B4 /* [CP] Embed Pods Frameworks */,
+				BD4AF3B209B672175A1700E8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义相机拍摄";
+			productName = "自定义相机拍摄";
+			productReference = 687E1027207309E2009891C5 /* 自定义相机拍摄.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687E101F207309E2009891C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Mr. Chen";
+				TargetAttributes = {
+					687E1026207309E2009891C5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 687E1022207309E2009891C5 /* Build configuration list for PBXProject "自定义相机拍摄" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 687E101E207309E2009891C5;
+			productRefGroup = 687E1028207309E2009891C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687E1026207309E2009891C5 /* 自定义相机拍摄 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687E1025207309E2009891C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687E1063207325DC009891C5 /* 开始.png in Resources */,
+				687E1065207325E0009891C5 /* 结束.png in Resources */,
+				687E106020730E4D009891C5 /* Fav_List_Video_Play@3x.png in Resources */,
+				687E1037207309E3009891C5 /* LaunchScreen.storyboard in Resources */,
+				687E105B20730E4D009891C5 /* MyGameDefaultAppIcon@2x.png in Resources */,
+				687E105F20730E4D009891C5 /* HVideo_back@2x.png in Resources */,
+				687E1034207309E3009891C5 /* Assets.xcassets in Resources */,
+				687E105D20730E4D009891C5 /* cameraNavBarIconSwitch.png in Resources */,
+				687E1032207309E2009891C5 /* Main.storyboard in Resources */,
+				687E106120730E4D009891C5 /* sc_btn_take.png in Resources */,
+				687E105C20730E4D009891C5 /* HVideo_back@3x.png in Resources */,
+				687E105A20730E4D009891C5 /* sight_preview_done.png in Resources */,
+				687E105E20730E4D009891C5 /* sight_preview_cancel.png in Resources */,
+				687E105920730E4D009891C5 /* EditImageCameraIconEdit.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2835ED89B343E622B7696BE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-自定义相机拍摄-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD4AF3B209B672175A1700E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义相机拍摄/Pods-自定义相机拍摄-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E08DB74035306A1020AA56B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义相机拍摄/Pods-自定义相机拍摄-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687E1023207309E2009891C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687E104220730A4B009891C5 /* CLCutsomCarmerViewController.m in Sources */,
+				687E104E20730D6F009891C5 /* ICFileTool.m in Sources */,
+				687E102F207309E2009891C5 /* ViewController.m in Sources */,
+				687E104B20730C92009891C5 /* FBGlowLabel.m in Sources */,
+				687E103A207309E3009891C5 /* main.m in Sources */,
+				687E102C207309E2009891C5 /* AppDelegate.m in Sources */,
+				687E104820730B09009891C5 /* LongProgress.m in Sources */,
+				687E104520730AEF009891C5 /* VideoPlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		687E1030207309E2009891C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687E1031207309E2009891C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		687E1035207309E3009891C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687E1036207309E3009891C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		687E103B207309E3009891C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		687E103C207309E3009891C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687E103E207309E3009891C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EEBC2CE87AC42041D1C2D4 /* Pods-自定义相机拍摄.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FYYNMXJ49V;
+				INFOPLIST_FILE = "自定义相机拍摄/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chenliang.intelligence.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687E103F207309E3009891C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB6F88F2C8CD76079EF317B /* Pods-自定义相机拍摄.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FYYNMXJ49V;
+				INFOPLIST_FILE = "自定义相机拍摄/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chenliang.intelligence.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687E1022207309E2009891C5 /* Build configuration list for PBXProject "自定义相机拍摄" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687E103B207309E3009891C5 /* Debug */,
+				687E103C207309E3009891C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687E103D207309E3009891C5 /* Build configuration list for PBXNativeTarget "自定义相机拍摄" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687E103E207309E3009891C5 /* Debug */,
+				687E103F207309E3009891C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 687E101F207309E2009891C5 /* Project object */;
+}
